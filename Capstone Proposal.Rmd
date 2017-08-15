@@ -1,0 +1,31 @@
+---
+title: "Capstone Project Proposal"
+output: html_document
+---
+
+
+### What is the problem you want to solve?
+
+I would like to optimize the placement of products by store according to the store demographics & sales history.
+
+
+### Who is your client and why do they care about this problem? In other words, what will your client do or decide based on your analysis that they wouldn't have otherwise?
+
+My client is Goya Foods, who will use this to decide which stores to place products based on facts rather than gut instinct.
+
+### What data are you going to use for this? How will you acquire this data?
+
+I will gather Goya sales deliveries to track sales by item and store.  I have acquired demographic data from another source.
+
+### In brief, outline your approach to solving this problem (knowing that this might change later).
+
+I will explore linear regression and decision tree, and possibly neural network.
+
+Linear regression would entail estimating parameters of the impact of different demographic variables on sales 
+of different products.  With these estimated parameters I would forecast sales estimation for each store-product 
+combination.  Then for each store I would rank items by sales forecast and choose the top n products, 
+with n varying by the size of the section.
+
+### What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+
+I will deliver a slide deck with  product placement suggestions for select products at select stores.
